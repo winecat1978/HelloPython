@@ -2,8 +2,8 @@
 
 DayOfTHeWeek = int(input('Введите цифру от 1 до 7: '))
 if DayOfTHeWeek == 6 or DayOfTHeWeek == 7:
-    print("Выходной")
+    print("Да, это выходной")
 elif 0<DayOfTHeWeek<6:
-    print("Будний день")
+    print("Нет, это будний день")
 else:
     print("Тому, что вы ввели, не соответствует ни один день недели")
